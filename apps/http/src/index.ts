@@ -2,7 +2,7 @@ import express from "express";
 import jwt from "jsonwebtoken";
 import { JWT } from "@repo/backend/config";
 import { middleware } from "./middleware";
-import { CreateUserSchema } from "@repo/common/types";
+import { UserSchema } from "@repo/common/types";
 
 const app = express();
 
